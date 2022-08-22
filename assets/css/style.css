@@ -24,6 +24,8 @@
   --Font-Family-Secondary: "Fraunces", serif;
 }
 
+/* Global */
+
 html {
   font-size: 62.5%;
 }
@@ -36,4 +38,14 @@ html {
 
 body {
   font-family: var(--Font-Family-Primary);
+  height: 100vh;
+}
+
+/* Card */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
 }
