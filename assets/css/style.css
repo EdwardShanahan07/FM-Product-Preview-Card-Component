@@ -40,6 +40,9 @@ body {
   background-color: var(--Color-Cream);
   font-family: var(--Font-Family-Primary);
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Main */
@@ -73,14 +76,22 @@ main {
 }
 
 .card__text h3 {
+  color: var(--Color-Dark-Grayish-Blue);
+  font-size: var(--font-size-paragraph);
+  letter-spacing: 0.26rem;
   margin-bottom: 10px;
 }
 
 .card__text h1 {
+  color: var(--Color-Very-Dark-Blue);
+  font-size: 2.4rem;
   margin-bottom: 10px;
 }
 
 .card__text p {
+  color: var(--Color-Dark-Grayish-Blue);
+  font-size: 1.4rem;
+  line-height: 1.6;
   margin-bottom: 20px;
 }
 
@@ -91,5 +102,15 @@ main {
 }
 
 .card__text h2 {
-  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  color: var(--Color-Dark-Cyan);
+  font-size: 2.4rem;
+  margin-right: 20px;
+}
+
+.card__text span {
+  color: var(--Color-Dark-Grayish-Blue);
+  font-size: 1.4rem;
+  text-decoration: line-through;
 }
