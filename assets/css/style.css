@@ -123,11 +123,16 @@ main {
   text-align: center;
   border-radius: 10px;
   width: 100%;
-  display: block;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px 0;
+  outline: none;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #1a4031;
 }
 
 .btn img {
