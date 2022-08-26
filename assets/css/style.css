@@ -52,8 +52,7 @@ main {
   align-items: center;
   justify-content: center;
   width: 90%;
-  margin: 0 auto;
-  height: 80%;
+  /* margin: 0 auto; */
 }
 
 /* Card */
@@ -137,4 +136,12 @@ main {
 
 .btn img {
   margin-right: 10px;
+}
+
+/* Media Query: 500 */
+
+@media (min-width: 500px) {
+  main {
+    width: 60%;
+  }
 }
