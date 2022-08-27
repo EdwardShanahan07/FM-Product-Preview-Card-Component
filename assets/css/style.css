@@ -146,9 +146,9 @@ main {
 
 /* Media Query: 500px */
 
-@media (min-width: 500px) {
+@media (min-width: 450px) {
   main {
-    width: 60%;
+    width: 70%;
   }
 }
 
