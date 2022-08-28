@@ -90,6 +90,7 @@ main {
 .card__text h1 {
   color: var(--Color-Very-Dark-Blue);
   font-size: 2.4rem;
+  font-family: var(--Font-Family-Secondary);
   margin-bottom: 10px;
 }
 
