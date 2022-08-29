@@ -63,6 +63,7 @@ main {
   flex-direction: column;
   background-color: var(--Color-White);
   border-radius: 10px;
+  margin-bottom: 5rem;
 }
 
 .card__img img {
@@ -149,6 +150,16 @@ main {
 /*  */
 
 .attribution {
+  font-size: var(--font-size-paragraph);
+}
+
+.attribution a {
+  color: blue;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
 }
 
 /* Media Query: 500px */
