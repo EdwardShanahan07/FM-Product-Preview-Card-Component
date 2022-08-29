@@ -43,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 /* Main */
@@ -143,6 +144,11 @@ main {
 
 .btn img {
   margin-right: 10px;
+}
+
+/*  */
+
+.attribution {
 }
 
 /* Media Query: 500px */
