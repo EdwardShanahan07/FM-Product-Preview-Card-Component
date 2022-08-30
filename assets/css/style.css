@@ -147,21 +147,6 @@ main {
   margin-right: 10px;
 }
 
-/*  */
-
-.attribution {
-  font-size: var(--font-size-paragraph);
-}
-
-.attribution a {
-  color: blue;
-  text-decoration: none;
-}
-
-.attribution a:hover {
-  text-decoration: underline;
-}
-
 /* Media Query: 500px */
 
 @media (min-width: 450px) {
