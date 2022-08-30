@@ -63,7 +63,6 @@ main {
   flex-direction: column;
   background-color: var(--Color-White);
   border-radius: 10px;
-  margin-bottom: 5rem;
 }
 
 .card__img img {
